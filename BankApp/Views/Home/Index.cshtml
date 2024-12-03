@@ -1,0 +1,17 @@
+@page 
+@model BankApp.Views.Home.IndexModel 
+@{ 
+    ViewData["Title"] = "Home Page"; 
+} 
+<div class="text-center"> 
+    <h1 class="display-4">Welcome</h1> 
+    <p>Welcome to our credit manager. You can save and load information about credits.</p> 
+    <img height="200" src="~/images/bankphoto.png" alt="Bank Image" /> 
+    <h3><b>There are two types of use credit manager:</b></h3> 
+    <h3 style="background-color:powderblue;">1) Create Credit</h3> 
+    <button type="button" onclick="location.href='@Url.Action("CreateCredit", "Home")'">Create Credit</button> 
+    <p>Click here to create a credit. You need to fill a form.</p> 
+    <h3 style="background-color:gold;">2) Get all credits</h3> 
+    <button type="button" onclick="location.href='@Url.Action("CreditList", "Home")'">Get Credits</button> 
+    <p>Click here to load all created credits.</p> 
+</div>

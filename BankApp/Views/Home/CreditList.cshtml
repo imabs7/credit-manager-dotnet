@@ -1,0 +1,34 @@
+@page 
+@model BankApp.Views.Home.CreditListModel 
+@{ 
+    ViewData["Title"] = "Credits List"; 
+} 
+<div class="text-center"> 
+    <h1>Credits List</h1> 
+    <a asp-action="CreateCredit">Add Credit</a> 
+    <table> 
+        <thead> 
+            <tr> 
+                <th>First Name</th> 
+                <th>Last Name</th> 
+                <th>Pesel Number</th> 
+                <th>Product Name</th> 
+                <th>Product Value</th> 
+                <th>Credit Name</th> 
+            </tr> 
+        </thead> 
+        <tbody> 
+            @foreach (var credit in Model.Credits) 
+            { 
+                <tr> 
+                    <td>@credit.Customer.FirstName</td> 
+                    <td>@credit.Customer.LastName</td> 
+                    <td>@credit.Customer.PeselNumber</td> 
+                    <td>@credit.Product.ProductName</td> 
+                    <td>@credit.Product.ProductValue</td> 
+                    <td>@credit.CreditName</td> 
+                </tr> 
+            } 
+        </tbody> 
+    </table> 
+</div>

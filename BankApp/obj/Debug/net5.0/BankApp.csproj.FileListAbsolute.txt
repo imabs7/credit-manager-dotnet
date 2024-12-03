@@ -1,0 +1,8 @@
+C:\Users\aakash_bhardwaj\Documents\SASVA IDE\CreditManager\CreditManager_Target\BankApp\obj\Debug\net5.0\BankApp.csproj.AssemblyReference.cache
+C:\Users\aakash_bhardwaj\Documents\SASVA IDE\CreditManager\CreditManager_Target\BankApp\obj\Debug\net5.0\BankApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aakash_bhardwaj\Documents\SASVA IDE\CreditManager\CreditManager_Target\BankApp\obj\Debug\net5.0\BankApp.AssemblyInfoInputs.cache
+C:\Users\aakash_bhardwaj\Documents\SASVA IDE\CreditManager\CreditManager_Target\BankApp\obj\Debug\net5.0\BankApp.AssemblyInfo.cs
+C:\Users\aakash_bhardwaj\Documents\SASVA IDE\CreditManager\CreditManager_Target\BankApp\obj\Debug\net5.0\BankApp.csproj.CoreCompileInputs.cache
+C:\Users\aakash_bhardwaj\Documents\SASVA IDE\CreditManager\CreditManager_Target\BankApp\obj\Debug\net5.0\BankApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aakash_bhardwaj\Documents\SASVA IDE\CreditManager\CreditManager_Target\BankApp\obj\Debug\net5.0\BankApp.RazorAssemblyInfo.cache
+C:\Users\aakash_bhardwaj\Documents\SASVA IDE\CreditManager\CreditManager_Target\BankApp\obj\Debug\net5.0\BankApp.RazorAssemblyInfo.cs

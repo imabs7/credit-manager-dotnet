@@ -1,0 +1,36 @@
+@page 
+@model BankApp.Views.Home.CreateCreditModel 
+@{ 
+    ViewData["Title"] = "Create Credit"; 
+} 
+<div class="text-center"> 
+    <h1>Create a New Credit</h1> 
+    <form asp-action="CreateCredit" method="post"> 
+        <div> 
+            <label>Credit Name:</label> 
+            <input type="text" name="CreditName" required /> 
+        </div> 
+        <div> 
+            <label>Customer First Name:</label> 
+            <input type="text" name="CustomerFirstName" required /> 
+        </div> 
+        <div> 
+            <label>Customer Last Name:</label> 
+            <input type="text" name="CustomerLastName" required /> 
+        </div> 
+        <div> 
+            <label>Customer Pesel Number:</label> 
+            <input type="number" name="CustomerPeselNumber" required /> 
+        </div> 
+        <div> 
+            <label>Product Name:</label> 
+            <input type="text" name="ProductName" required /> 
+        </div> 
+        <div> 
+            <label>Product Value:</label> 
+            <input type="number" name="ProductValue" required /> 
+        </div> 
+        <button type="submit">Submit</button> 
+        <button type="reset">Reset</button> 
+    </form> 
+</div>
